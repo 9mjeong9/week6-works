@@ -1,0 +1,107 @@
+
+.L {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+  font-size: 270px;
+  font-weight: 500px;
+  color: white;
+  text-align: center;
+  padding-top: 94.3px;
+}
+
+.A {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+  text-align: center;
+  padding-top: 188.6px;
+}
+
+.LAND {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+  padding-top: 14px;
+}
+
+.L2 {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #D900FF;
+  font-size: 170px;
+  color: white;
+  font-style: italic;
+  font-weight: 900;
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  padding-top: 14px;
+}
+
+.A2 {
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #51FDFF;
+  font-size: 140px;
+  color: white;
+  font-weight: 550;
+  position: absolute;
+  left: 28%;
+  top: 10px;
+  padding-top: 14px;
+}
+
+
+
+
+.L {
+  animation: L 1s ease infinite;
+  -moz-animation: L 1s ease infinite;
+  -webkit-animation: L 1s ease infinite;
+}
+
+@keyframes L {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #D06EF9, 0 0 3vw #D06EF9, 0 0 10vw #D06EF9, 0 0 10vw #D06EF9, 0 0 .4vw #D06EF9, .5vw .5vw .1vw #A19DD6;
+    color: #FFFFFF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #0D368D, 0 0 1.5vw #0D368D, 0 0 5vw #0D368D, 0 0 5vw #0D368D, 0 0 .2vw #0D368D, .5vw .5vw .1vw #40340A;
+    color: #A8A8CC;
+  }
+}
+
+.A {
+  animation: A 2s linear infinite;
+  -moz-animation: A 2s linear infinite;
+  -webkit-animation: A 2s linear infinite;
+  -o-animation: A 2s linear infinite;
+}
+
+@keyframes A {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #FFFFFF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+}
+
+.LAND {
+  animation: LAND 2.5s linear infinite;
+  -moz-animation: LAND 2.5s linear infinite;
+  -webkit-animation: LAND 2.5s linear infinite;
+  -o-animation: LAND 2.5s linear infinite;
+}
+
+@keyframes LAND {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #FFFFFF;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #51FDFF, 0 0 1.5vw #51FDFF, 0 0 5vw #51FDFF, 0 0 5vw #51FDFF, 0 0 .2vw #51FDFF, .5vw .5vw .1vw #51FDFF;
+    color: #146C80;
+  }
+}
